@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "light-server -s ./files -w 'files/resume.md, style/my-resume.css # bin/biteydown --html --pdf --css style/my-resume.css files/resume.md'"
+  },
+  "devDependencies": {
+    "light-server": "^1.1.10"
+  }
+}

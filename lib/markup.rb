@@ -3,15 +3,28 @@ require 'github/markup'
 class Markup
   def generate_html(markdown_path, css_path)
     html = GitHub::Markup.render(markdown_path)
-    add_stylesheet!(html, css_path)
-    add_head!(html)
+    add_head!(html, css_path)
   end
 
-  def add_head!(html)
-    html.insert(0, "\n<head>\n<meta charset='utf-8'>\n</head>\n")
-  end
+  def add_head!(html, css_path)
+    head = <<HEAD
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>Resumé</title>
+  <style>#{File.read(css_path)}</style>
+</head>
+<body>
+HEAD
 
-  def add_stylesheet!(html, css_path)
-    html.insert(0, "\n<style>#{File.read(css_path)}</style>\n")
+    close = <<CLOSE
+</body>
+</html>
+CLOSE
+
+    html.insert(0, head)
+    html.insert(-1, close)
+    html
   end
 end
