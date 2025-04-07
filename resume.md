@@ -1,25 +1,25 @@
 ---
-title: Viktor Vaughn
+title: Brian Weaver
 ---
-###### [ [Github](https://www.github.com/siph) ] - [ [Blog](https://www.dev.to/siph) ] - [ v.vaughn@gmail.com ] - [ 814 332 8091 ]
-#### Experienced project manager with a track record of delivering high-quality results on time and within budget.
+###### [ [Github](https://www.github.com/bweave) ] - [ [Blog](https://blog.bweave.dev.to/) ] - [ howdy@bweave.dev ]
+#### Experienced technical leaders with a strong track record of building healthy teams, healthy codebases, and shipping features at scale.
 
 ## Skills
-```Project management```
+```Technical leadership```
 ```Team leadership```
-```Budget management```
 ```Communication```
 ```Problem-solving```
-```Agile methodology```
-```Microsoft Project```
-```JIRA```
-```SQL```
+```Shape-Up project management```
+```Ruby & Ruby on Rails```
+```React & React Native```
+```MySQL```
 
-**Languages**: Java, Kotlin, Rust  
-**Databases**: Redis, Postgres, Neo4j  
-**Tools**: Spring, Kubernetes, Github-Actions, Linux, Nix, Git, Rest, GraphQL
+**Languages**: Ruby, Javascript
+**Frameworks**: Ruby on Rails, React, React Native
+**Databases**: MySQL, Redis
+**Tools**: AWS, Github-Actions, Linux, Nix, Git, REST, JSON API
 
-## Experience
+## TODO -- Experience
 ### Jamba Juice
 ##### Senior Project Manager, January 2015 - Present
 - Led cross-functional teams in the successful delivery of multiple software projects, including a major website redesign and a mobile app launch.

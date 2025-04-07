@@ -435,6 +435,9 @@ table {
 
 /* Github css */
 
+:root {
+    --text-color: #333;
+}
 
 @font-face {
     font-family: 'Roboto';
@@ -450,7 +453,7 @@ body {
     padding-right: 1em;
     padding-left: 1em;
     max-width: 64em;
-    color: black;
+    color: var(--text-color);
 }
 
 *:not('#mkdbuttons') {
@@ -515,26 +518,26 @@ h6 {
 
 h1 {
     font-size: 37px;
-    color: #000;
+    color: var(--text-color);
     text-align: center
 }
 
 h2 {
     font-size: 24px;
     border-bottom: 1px solid #ccc;
-    color: #f39
+    color: var(--text-color);
 }
 
 h3 {
     font-size: 18px;
-    color: #333
+    color: var(--text-color);
     -webkit-margin-before: 0.01em;
     -webkit-margin-after: 0.01em;
 }
 
 h4 {
     font-size: 16px;
-    color: #333;
+    color: var(--text-color);
     text-align: center;
     -webkit-margin-before: 0.02em;
     -webkit-margin-after: 0.02em;
@@ -542,7 +545,7 @@ h4 {
 
 h5 {
     font-size: 14px;
-    color: #333;
+    color: var(--text-color);
     text-align: center
 }
 
