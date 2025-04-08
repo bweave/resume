@@ -9,6 +9,7 @@ on:
       - style.css
 permissions:
   actions: write
+  contents: write
 jobs:
   generate:
     runs-on: ubuntu-latest
