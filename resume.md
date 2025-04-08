@@ -33,12 +33,12 @@ title: Brian Weaver
 - Maintained project documentation and provided regular status updates to executive leadership.
 
 
-## Projects
+## TODO -- Projects
 **[*resume-md*](http://www.github.com/siph/resume-md)**
 
 Build your resume using markdown and have it generated as a pdf and html.
 
-## Education
+## TODO -- Education
 
 ### Reno University
 **Degree:** Bachelor of Science in Computer Science | **Years Attended:** 2016-2019 | **City, State:** Reno, NV
