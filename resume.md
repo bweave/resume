@@ -38,7 +38,10 @@ title: Brian Weaver
 
 Build your resume using markdown and have it generated as a pdf and html.
 
-## TODO -- Education
+## Education
 
-### Reno University
-**Degree:** Bachelor of Science in Computer Science | **Years Attended:** 2016-2019 | **City, State:** Reno, NV
+### [Southern Polytechnic State University](http://engineering.kennesaw.edu/)
+**Partial Degree:** Bachelor of Science in Computer Science | **Years Attended:** 2000-2002 | **City, State:** Marietta, GA
+
+### [Kennesaw State University](http://www.kennesaw.edu/)
+**Partial Degree:** Bachelor of Arts in Music Education | **Years Attended:** 1999 - 2000 | **City, State:** Kennesaw, GA
