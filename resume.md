@@ -33,7 +33,7 @@ title: Brian Weaver
 - Maintained project documentation and provided regular status updates to executive leadership.
 
 
-## TODOs -- Projects
+## TODO -- Projects
 **[*resume-md*](http://www.github.com/siph/resume-md)**
 
 Build your resume using markdown and have it generated as a pdf and html.
