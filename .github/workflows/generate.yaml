@@ -1,4 +1,5 @@
 name: "Generate HTML and PDF"
+permissions: write-all
 on:
   push:
     branches:
@@ -7,9 +8,6 @@ on:
       - flake.*
       - resume.md
       - style.css
-permissions:
-  actions: write
-  contents: write
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -56,9 +54,9 @@ jobs:
       shell: bash
       run: |
         gh release create ${{ steps.current-datetime.outputs.CURRENT_DATETIME }} \
-        --generate-notes
         out/${{ github.actor }}_resume.html \
         out/${{ github.actor }}_resume.md \
-        out/${{ github.actor }}_resume.pdf
+        out/${{ github.actor }}_resume.pdf \
+        --generate-notes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
