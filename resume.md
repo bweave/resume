@@ -1,42 +1,42 @@
 ---
 title: Brian Weaver
 ---
-###### [ [Github](https://www.github.com/bweave) ] - [ [Blog](https://blog.bweave.dev.to/) ] - [ howdy@bweave.dev ]
-#### Experienced technical leaders with a strong track record of building healthy teams, healthy codebases, and shipping features at scale.
+
+###### [ [Github](https://www.github.com/bweave) ] - [ [Blog](https://blog.bweave.dev/) ] - [ howdy@bweave.dev ]
+
+#### Experienced technical leader with a strong track record of building healthy teams, healthy codebases, and shipping features.
 
 ## Skills
 ```Technical leadership```
 ```Team leadership```
 ```Communication```
 ```Problem-solving```
-```Shape-Up project management```
-```Ruby & Ruby on Rails```
-```React & React Native```
-```MySQL```
+```Project management```
 
 **Languages**: Ruby, Javascript
 **Frameworks**: Ruby on Rails, React, React Native
 **Databases**: MySQL, Redis
 **Tools**: AWS, Github-Actions, Linux, Nix, Git, REST, JSON API
 
-## TODO -- Experience
-### Jamba Juice
-##### Senior Project Manager, January 2015 - Present
-- Led cross-functional teams in the successful delivery of multiple software projects, including a major website redesign and a mobile app launch.
-- Managed budgets of up to $5 million and ensured projects were delivered on time and within scope.
-- Coordinated communication with stakeholders, including executive leadership and development teams.
+## Experience
 
-### PF Chang's
-##### Project Manager, February 2011 - December 2014
-- Managed a portfolio of software and hardware projects, including a new CRM implementation and a network infrastructure upgrade.
-- Worked closely with business analysts and technical teams to ensure project requirements were met and delivered on schedule.
-- Maintained project documentation and provided regular status updates to executive leadership.
+### Planning Center
 
+#### Senior Engineering Manager, August 2024 - Present
 
-## TODO -- Projects
-**[*resume-md*](http://www.github.com/siph/resume-md)**
+#### Engineering Manager, June 2023 - August 2024
 
-Build your resume using markdown and have it generated as a pdf and html.
+#### Fullstack Developer, May 2017 - June 2023
+
+### North Point Ministries
+
+#### Senior Developer, Sept. 2014 - May 2017
+
+#### Contract Developer, Aug. 2014 - Sept. 2014
+
+### Root Radius
+
+#### Lead Developer, Nov. 2012 - Aug. 2014
 
 ## Education
 
