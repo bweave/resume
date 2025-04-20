@@ -4,26 +4,7 @@ title: Brian Weaver
 
 ###### [ [Github](https://www.github.com/bweave) ] - [ [Blog](https://blog.bweave.dev/) ] - [ howdy@bweave.dev ]
 
-#### Experienced technical leader with a strong track record of building healthy teams, healthy codebases, and shipping features
-
-## Skills
-
-- Technical leadership
-- Team leadership
-- Engineering Hiring
-- Communication
-- Problem-solving
-- Project management and delivery
-
-**Languages**: Ruby, JavaScript, HTML, CSS, SQL, Bash, etc.
-
-**Frameworks**: Ruby on Rails, React, React Native
-
-**Databases**: MySQL, Postgres, Redis
-
-**Tools**: AWS, Github, GitHub-Actions, Linux, Nix, Git, REST, JSON API, Docker
-
-**Project management & Comms.**: Asana, Trello, Notion, Basecamp, Slack, Zoom
+I'm an experienced technical leader with a strong track record of building healthy teams, maintaining healthy codebases, and shipping features.
 
 ## Experience
 
@@ -130,6 +111,25 @@ As a business owner, I am responsible for every aspect of delivering exceptional
 - Providing frontend performance audits and suggested optimizations
 - Providing project "rescue" plans and executing them
 - Providing general consulting for client app and website ideas
+
+## Skills
+
+- Technical leadership
+- Team leadership
+- Engineering Hiring
+- Communication
+- Problem-solving
+- Project management and delivery
+
+**Languages**: Ruby, JavaScript, HTML, CSS, SQL, Bash, etc.
+
+**Frameworks**: Ruby on Rails, React, React Native
+
+**Databases**: MySQL, Postgres, Redis
+
+**Tools**: AWS, Github, GitHub-Actions, Linux, Nix, Git, REST, JSON API, Docker
+
+**Project management & Comms.**: Asana, Trello, Notion, Basecamp, Slack, Zoom
 
 ## Education
 
