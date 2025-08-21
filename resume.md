@@ -13,18 +13,26 @@ I'm an experienced technical leader with a strong track record of building healt
 #### Senior Engineering Manager, August 2024 - Present
 
 - Lead Ecosystem Engineering area
-  - API, Chat, Home, People, Publishing, Eco. Mobile teams
-  - Recruited and hired EMs for API, People, and Home
+  - API, Chat, Home, People, Publishing, Ecosystem Mobile teams
+  - Recruited internally and hired EMs for API, People, and Home
   - Highest performing Engineering area
-- Lead Engineering hiring
-  - Partnered with People Ops to improve process
+- SEM lead of Engineering hiring
   - Implemented hiring and onboarding runbooks
   - Ran multiple rounds of hiring to increase headcount by ~10%
-- Lead planning and execution of 2025 Engineering Summit: **_More than Code!_**
+  - Partnered with People Ops to improve process based on "Who: the A method for hiring"
+  - Coached and mentored Engineering Managers to own hiring and onboarding for their teams
+  - Managed vendor tools and integrations for hiring
+- SEM lead of planning and execution for 2025 Engineering Summit: **_More than Code!_**
   - In-house conference with swag, keynote, breakout talks, & lightning talks
     - Recruited and supported staff speakers
-  - Off-site after-hours activity
+    - Partnered across Engineering, People Ops, Product, and Design to execute
+  - Off-site after-hours activity: partnered with People Ops to plan and execute
   - Pizza & Game Night after-hours with Product and Design departments
+- SEM liason to the Engineering Meetup team
+  - Worked with the team and EMs to recruit speakers and topics
+- Coached under-performing Engineering Managers
+  - Worked with EMs to improve team performance and upward communication
+  - Provided feedback and support for EMs to improve their leadership skills
 
 #### Engineering Manager, June 2023 - August 2024
 
@@ -35,7 +43,13 @@ I'm an experienced technical leader with a strong track record of building healt
 - Drove 2023 Q3 "mega hiring round" with Shane Bonham increasing headcount ~15%
 - Contributed to defining new developer levels and promotion process
 - Supported Greg Losie's promotion to IC L5
-- Drove the effort to pair up mentors and mentees
+- Supported Gabi Jack's promotion to IC L4
+- Coached under-performing developers
+  - Improved communication and collaboration skills
+  - Improved code quality and performance
+  - Improved project and task management skills
+  - Improved team dynamics and morale
+- Drove the effort to pair up mentors and mentees resulting in 15+ successful pairings
 - Worked with Ecosystem area Product team to define and deliver cycle work including:
   - Sermon Notes
   - Church Center Analytics
@@ -48,15 +62,18 @@ I'm an experienced technical leader with a strong track record of building healt
 
 #### Fullstack Developer, May 2017 - June 2023
 
+- Achieved IC L4, moved to management as I was applying for L5
 - Improved performance of Giving statement generation and delivery
 - Implemented Groups attendance reporting on the web and via CSV generation and download
 - Implemented Publishing custom page blocks and block editor
-- Built public and private APIs for Giving, Groups, and Publishing
+- Built public and private APIs for Giving, Groups, Publishing, and Church Center
 - Built Church Center features across Giving, Groups, and Publishing on web and mobile
 - Served as the Publishing Engineering Lead
-- Achieved IC L4, moved to management as I was prepping for L5
+- Implemented and advocated for weekly team Datadog Walks resulting in adoption across Engineering
 - Participated in pair programming, code reviews, and on-call rotation
 - Paticipated in mentoring, hiring, and onboarding of new team members
+- Worked directly with my Product and Design partners to define and deliver cycle work
+- Worked directly with Support and QA to ship bug fixes
 
 ### North Point Ministries
 
@@ -121,15 +138,41 @@ As a business owner, I am responsible for every aspect of delivering exceptional
 - Problem-solving
 - Project management and delivery
 
+**Project management & Comms.**: Asana, Trello, Notion, Basecamp, Slack, Zoom
+
 **Languages**: Ruby, JavaScript, HTML, CSS, SQL, Bash, etc.
 
 **Frameworks**: Ruby on Rails, React, React Native
 
 **Databases**: MySQL, Postgres, Redis
 
-**Tools**: AWS, Github, GitHub-Actions, Linux, Nix, Git, REST, JSON API, Docker
+**Tools**:
 
-**Project management & Comms.**: Asana, Trello, Notion, Basecamp, Slack, Zoom
+<div class="three-column-list">
+  <div class="column">
+    <ul>
+      <li>AWS</li>
+      <li>Docker</li>
+      <li>Heroku</li>
+      <li>JSON API</li>
+    </ul>
+  </div>
+  <div class="column">
+    <ul>
+      <li>Github</li>
+      <li>GitHub-Actions</li>
+      <li>Git</li>
+      <li>REST</li>
+    </ul>
+  </div>
+  <div class="column">
+    <ul>
+      <li>Datadog</li>
+      <li>Sentry</li>
+      <li>Bugsnag</li>
+    </ul>
+  </div>
+</div>
 
 ## Education
 
