@@ -126,7 +126,7 @@ white-space: pre-wrap;
 }
 
 q {
-quotes: "\201C""\201D""\2018""\2019";
+quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
 small {
@@ -203,6 +203,7 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
 -webkit-appearance: button;
+appearance: button;
 
 cursor: pointer;
 
@@ -223,6 +224,7 @@ padding: 0;
 
 input[type="search"] {
 -webkit-appearance: textfield;
+appearance: textfield;
 
 -moz-box-sizing: content-box;
 -webkit-box-sizing: content-box;
@@ -855,9 +857,22 @@ color: #a31515
 .author {
 display: none
 }
+
 .center {
 text-align: center;
-}</style>
+}
+.three-column-list {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+padding: 10px;
+}
+@media (max-width: 768px) {
+.three-column-list {
+grid-template-columns: 1fr;
+}
+}
+</style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -877,27 +892,45 @@ Engineering Manager, August 2024 - Present</h4>
 <ul>
 <li>Lead Ecosystem Engineering area
 <ul>
-<li>API, Chat, Home, People, Publishing, Eco. Mobile teams</li>
-<li>Recruited and hired EMs for API, People, and Home</li>
+<li>API, Chat, Home, People, Publishing, Ecosystem Mobile teams</li>
+<li>Recruited internally and hired EMs for API, People, and Home</li>
 <li>Highest performing Engineering area</li>
 </ul></li>
-<li>Lead Engineering hiring
+<li>SEM lead of Engineering hiring
 <ul>
-<li>Partnered with People Ops to improve process</li>
 <li>Implemented hiring and onboarding runbooks</li>
 <li>Ran multiple rounds of hiring to increase headcount by ~10%</li>
+<li>Partnered with People Ops to improve process based on “Who: the A
+method for hiring”</li>
+<li>Coached and mentored Engineering Managers to own hiring and
+onboarding for their teams</li>
+<li>Managed vendor tools and integrations for hiring</li>
 </ul></li>
-<li>Lead planning and execution of 2025 Engineering Summit:
+<li>SEM lead of planning and execution for 2025 Engineering Summit:
 <strong><em>More than Code!</em></strong>
 <ul>
 <li>In-house conference with swag, keynote, breakout talks, &amp;
 lightning talks
 <ul>
 <li>Recruited and supported staff speakers</li>
+<li>Partnered across Engineering, People Ops, Product, and Design to
+execute</li>
 </ul></li>
-<li>Off-site after-hours activity</li>
+<li>Off-site after-hours activity: partnered with People Ops to plan and
+execute</li>
 <li>Pizza &amp; Game Night after-hours with Product and Design
 departments</li>
+</ul></li>
+<li>SEM liason to the Engineering Meetup team
+<ul>
+<li>Worked with the team and EMs to recruit speakers and topics</li>
+</ul></li>
+<li>Coached under-performing Engineering Managers
+<ul>
+<li>Worked with EMs to improve team performance and upward
+communication</li>
+<li>Provided feedback and support for EMs to improve their leadership
+skills</li>
 </ul></li>
 </ul>
 <h4 id="engineering-manager-june-2023---august-2024">Engineering
@@ -913,7 +946,16 @@ headcount ~15%</li>
 <li>Contributed to defining new developer levels and promotion
 process</li>
 <li>Supported Greg Losie’s promotion to IC L5</li>
-<li>Drove the effort to pair up mentors and mentees</li>
+<li>Supported Gabi Jack’s promotion to IC L4</li>
+<li>Coached under-performing developers
+<ul>
+<li>Improved communication and collaboration skills</li>
+<li>Improved code quality and performance</li>
+<li>Improved project and task management skills</li>
+<li>Improved team dynamics and morale</li>
+</ul></li>
+<li>Drove the effort to pair up mentors and mentees resulting in 15+
+successful pairings</li>
 <li>Worked with Ecosystem area Product team to define and deliver cycle
 work including:
 <ul>
@@ -930,21 +972,26 @@ work including:
 <h4 id="fullstack-developer-may-2017---june-2023">Fullstack Developer,
 May 2017 - June 2023</h4>
 <ul>
+<li>Achieved IC L4, moved to management as I was applying for L5</li>
 <li>Improved performance of Giving statement generation and
 delivery</li>
 <li>Implemented Groups attendance reporting on the web and via CSV
 generation and download</li>
 <li>Implemented Publishing custom page blocks and block editor</li>
-<li>Built public and private APIs for Giving, Groups, and
-Publishing</li>
+<li>Built public and private APIs for Giving, Groups, Publishing, and
+Church Center</li>
 <li>Built Church Center features across Giving, Groups, and Publishing
 on web and mobile</li>
 <li>Served as the Publishing Engineering Lead</li>
-<li>Achieved IC L4, moved to management as I was prepping for L5</li>
+<li>Implemented and advocated for weekly team Datadog Walks resulting in
+adoption across Engineering</li>
 <li>Participated in pair programming, code reviews, and on-call
 rotation</li>
 <li>Paticipated in mentoring, hiring, and onboarding of new team
 members</li>
+<li>Worked directly with my Product and Design partners to define and
+deliver cycle work</li>
+<li>Worked directly with Support and QA to ship bug fixes</li>
 </ul>
 <h3 id="north-point-ministries">North Point Ministries</h3>
 <h4 id="senior-developer-sept.-2014---may-2017">Senior Developer,
@@ -1024,14 +1071,38 @@ optimizations</li>
 <li>Problem-solving</li>
 <li>Project management and delivery</li>
 </ul>
+<p><strong>Project management &amp; Comms.</strong>: Asana, Trello,
+Notion, Basecamp, Slack, Zoom</p>
 <p><strong>Languages</strong>: Ruby, JavaScript, HTML, CSS, SQL, Bash,
 etc.</p>
 <p><strong>Frameworks</strong>: Ruby on Rails, React, React Native</p>
 <p><strong>Databases</strong>: MySQL, Postgres, Redis</p>
-<p><strong>Tools</strong>: AWS, Github, GitHub-Actions, Linux, Nix, Git,
-REST, JSON API, Docker</p>
-<p><strong>Project management &amp; Comms.</strong>: Asana, Trello,
-Notion, Basecamp, Slack, Zoom</p>
+<p><strong>Tools</strong>:</p>
+<div class="three-column-list">
+<div class="column">
+<pre><code>&lt;ul&gt;
+  &lt;li&gt;AWS&lt;/li&gt;
+  &lt;li&gt;Docker&lt;/li&gt;
+  &lt;li&gt;Heroku&lt;/li&gt;
+  &lt;li&gt;JSON API&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+</div>
+<div class="column">
+<pre><code>&lt;ul&gt;
+  &lt;li&gt;Github&lt;/li&gt;
+  &lt;li&gt;GitHub-Actions&lt;/li&gt;
+  &lt;li&gt;Git&lt;/li&gt;
+  &lt;li&gt;REST&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+</div>
+<div class="column">
+<pre><code>&lt;ul&gt;
+  &lt;li&gt;Datadog&lt;/li&gt;
+  &lt;li&gt;Sentry&lt;/li&gt;
+  &lt;li&gt;Bugsnag&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+</div>
+</div>
 <h2 id="education">Education</h2>
 <h3 id="southern-polytechnic-state-university"><a href="http://engineering.kennesaw.edu/">Southern Polytechnic State
 University</a></h3>
