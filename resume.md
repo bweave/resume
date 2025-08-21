@@ -146,33 +146,9 @@ As a business owner, I am responsible for every aspect of delivering exceptional
 
 **Databases**: MySQL, Postgres, Redis
 
-**Tools**:
+**Tools**: AWS, Docker, Heroku, JSON API, Github, GitHub-Actions, Git, REST, Datadog, Sentry, Bugsnag
 
-<div class="three-column-list">
-  <div class="column">
-    <ul>
-      <li>AWS</li>
-      <li>Docker</li>
-      <li>Heroku</li>
-      <li>JSON API</li>
-    </ul>
-  </div>
-  <div class="column">
-    <ul>
-      <li>Github</li>
-      <li>GitHub-Actions</li>
-      <li>Git</li>
-      <li>REST</li>
-    </ul>
-  </div>
-  <div class="column">
-    <ul>
-      <li>Datadog</li>
-      <li>Sentry</li>
-      <li>Bugsnag</li>
-    </ul>
-  </div>
-</div>
+**Editor**: Neovim
 
 ## Education
 
