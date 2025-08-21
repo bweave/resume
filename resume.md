@@ -4,7 +4,7 @@ title: Brian Weaver
 
 ###### [ [Github](https://www.github.com/bweave) ] - [ [Blog](https://blog.bweave.dev/) ] - [ howdy@bweave.dev ]
 
-I'm an experienced technical leader with a strong track record of building healthy teams, maintaining healthy codebases, and shipping features.
+I'm an experienced technical leader who builds healthy teams and ships great software. I currently lead 6 engineering teams at Planning Center and drive company-wide initiatives around hiring, planning, and engineering culture. I believe in clear communication, developing people, and getting things done.
 
 ## Experience
 
@@ -12,85 +12,35 @@ I'm an experienced technical leader with a strong track record of building healt
 
 #### Senior Engineering Manager, August 2024 - Present
 
-- Lead Ecosystem Engineering area
-  - API, Chat, Home, People, Publishing, Ecosystem Mobile teams
-  - Recruited internally and hired EMs for API, People, and Home
-  - Highest performing Engineering area
-- SEM lead of Engineering hiring
-  - Implemented hiring and onboarding runbooks
-  - Ran multiple rounds of hiring to increase headcount by ~10%
-  - Partnered with People Ops to improve process based on "Who: the A method for hiring"
-  - Coached and mentored Engineering Managers to own hiring and onboarding for their teams
-  - Managed vendor tools and integrations for hiring
-- SEM lead of planning and execution for 2025 Engineering Summit: **_More than Code!_**
-  - In-house conference with swag, keynote, breakout talks, & lightning talks
-    - Recruited and supported staff speakers
-    - Partnered across Engineering, People Ops, Product, and Design to execute
-  - Off-site after-hours activity: partnered with People Ops to plan and execute
-  - Pizza & Game Night after-hours with Product and Design departments
-- SEM liason to the Engineering Meetup team
-  - Worked with the team and EMs to recruit speakers and topics
-- Coached under-performing Engineering Managers
-  - Worked with EMs to improve team performance and upward communication
-  - Provided feedback and support for EMs to improve their leadership skills
+- Built and supported the highest-performing engineering area leading 6 teams (API, Chat, Home, People, Publishing, Ecosystem Mobile)
+- Scaled engineering organization by ~10% as hiring lead - implemented runbooks, coached EMs on hiring/onboarding, collaborated with People Ops, and managed vendor partnerships for hiring tools
+- Designed and executed company-wide Engineering Summit - coordinated cross-department collaboration for in-house conference with 100+ attendees
+- Recruited and developed engineering leadership - hired EMs for API, People, and Home teams
+- Coached underperforming managers to improve team performance and communication
 
 #### Engineering Manager, June 2023 - August 2024
 
-- Lead 3 teams of developers on the API, People, and Publishing teams
-- Contributed to hiring and onboarding developers
-- Contributed to hiring and onboarding new Engineering Managers
-- Migrated our hiring process from Codility to Codesignal
-- Drove 2023 Q3 "mega hiring round" with Shane Bonham increasing headcount ~15%
-- Contributed to defining new developer levels and promotion process
-- Supported Greg Losie's promotion to IC L5
-- Supported Gabi Jack's promotion to IC L4
-- Coached under-performing developers
-  - Improved communication and collaboration skills
-  - Improved code quality and performance
-  - Improved project and task management skills
-  - Improved team dynamics and morale
-- Drove the effort to pair up mentors and mentees resulting in 15+ successful pairings
-- Worked with Ecosystem area Product team to define and deliver cycle work including:
-  - Sermon Notes
-  - Church Center Analytics
-  - Church Center Directory Privacy
-  - Church Center Members-only Pages
-  - Add-ons
-  - Async webhooks
-  - Shareable Dashboards
-  - People List Performance
+- Led 3 high-impact engineering teams (API, People, Publishing) while building management capabilities across the organization
+- Drove major hiring expansion - led Q3 "mega hiring round" increasing headcount ~15% and migrated hiring process from Codility to Codesignal
+- Established mentoring program resulting in 15+ successful mentor-mentee pairings and supported multiple IC promotions (L4, L5)
+- Delivered key product initiatives including Sermon Notes, Customer Analytics, Add-ons, Async Webhooks, Church Center Directory Privacy and Members-only pages, People List Performance, and Shareable Dashboards in partnership with Product teams
+- Developed engineering talent through coaching underperforming developers on communication, code quality, and team dynamics
 
 #### Fullstack Developer, May 2017 - June 2023
 
-- Achieved IC L4, moved to management as I was applying for L5
-- Improved performance of Giving statement generation and delivery
-- Implemented Groups attendance reporting on the web and via CSV generation and download
-- Implemented Publishing custom page blocks and block editor
-- Built public and private APIs for Giving, Groups, Publishing, and Church Center
-- Built Church Center features across Giving, Groups, and Publishing on web and mobile
-- Served as the Publishing Engineering Lead
-- Implemented and advocated for weekly team Datadog Walks resulting in adoption across Engineering
-- Participated in pair programming, code reviews, and on-call rotation
-- Paticipated in mentoring, hiring, and onboarding of new team members
-- Worked directly with my Product and Design partners to define and deliver cycle work
-- Worked directly with Support and QA to ship bug fixes
+- Progressed from IC L1 to L4 and emerged as technical leader - served as Publishing Engineering Lead and moved to management track
+- Drove engineering culture initiatives - implemented weekly Datadog Walks adopted across Engineering, led pair programming and mentoring efforts
+- Delivered high-impact features - improved Giving statement performance, built Church Center cross-product features, created public/private APIs across multiple products
+- Partnered directly with Product, Design, Support and QA to define requirements, ship features, and resolve issues
+- Participated in hiring, onboarding, code reviews, and on-call rotation
 
 ### North Point Ministries
 
 #### Senior Developer, Sept. 2014 - May 2017
 
-I worked as a full stack, senior member of a small, internal team. We built and maintained 117 websites, applications, and mobile apps that served internal departments and external users. The tech stack included PHP, Ruby, and Javascript. Our key applications served tens of thousands of users weekly.
-
-- Lead Developer for feature adds and new projects across the stack
-- Identifying, planning, and developing complex system architectures
-- Client applications in Ruby on Rails, Laravel, CodeIgniter, WordPress and AngularJS
-- Leading and educating the team in hybrid mobile app development with AngularJS & Ionic Framework
-- Mentoring team members on best practices, troubleshooting, and craftsmanship
-- Participating in pair programming, and code reviews
-- DevOps Lead scaling applications to serve 10s of thousands of users
-- Participating in SCRUM/Agile project planning and execution
-- Meeting with stakeholders and product owners
-- Kanban via Trello and client communication via Basecamp
+- Led full-stack development for 117 websites and applications serving tens of thousands of weekly users
+- Mentored team members and drove adoption of best practices across PHP, Ruby, and JavaScript stack
+- Served as DevOps lead scaling applications and participating in stakeholder planning
 
 #### Contract Developer, Aug. 2014 - Sept. 2014
 
@@ -101,61 +51,40 @@ I worked as a full stack, senior member of a small, internal team. We built and 
 
 #### Lead Developer, Nov. 2012 - Aug. 2014
 
-I worked as a team of one at a small digital agency serving non-profit organizations. Our primary stack was PHP/MySQL. Campaign automation, donor analytics, and event scalability were my key responsibilities.
-
-- Lead Developer for feature adds and new projects
-- Participating in project discovery, planning, and development
-- Participating in defining the software development process
-- Scaling cloud servers for large campaigns and events
-- Setting up Google Analytics custom reporting
-- Meeting with clients to assess technical needs
-- Website support and maintenance
-- Writing responsive, semantic HTML, CSS, and Javascript
-- Optimizing PHP and MySQL performance
+- Solo technical lead for digital agency serving non-profit organizations
+- Managed full project lifecycle from discovery to deployment, including client communication and technical architecture
 
 ### BWeave, LLC
 
 #### Owner, 2008 - Present
 
-As a business owner, I am responsible for every aspect of delivering exceptional software to my clients.
+- Independent consulting practice delivering custom software solutions
+- Responsible for all aspects of client relationships, project delivery, and business operations
 
-- Delivering high quality, scalable websites and apps
-- Providing DevOps and SysAdmin support
-- Working with clients through discovery, planning, and development of their project
-- Creating estimates and proposals
-- Communicating clearly, and often about progress, roadblocks, and feedback
-- Daily or weekly standups, depending on the project
-- Providing frontend performance audits and suggested optimizations
-- Providing project "rescue" plans and executing them
-- Providing general consulting for client app and website ideas
+### Core Competencies
 
-## Skills
+#### Leadership & Strategy
 
-- Technical leadership
-- Team leadership
-- Engineering Hiring
-- Communication
-- Problem-solving
-- Project management and delivery
+- Engineering team leadership and organizational scaling
+- Technical hiring, onboarding, and talent development
+- Cross-functional collaboration and stakeholder management
+- Engineering culture and process improvement
 
-**Project management & Comms.**: Asana, Trello, Notion, Basecamp, Slack, Zoom
+##### Technical & Delivery
 
-**Languages**: Ruby, JavaScript, HTML, CSS, SQL, Bash, etc.
+- Full-stack development (Ruby/Rails, JavaScript/React, SQL)
+- System architecture and performance optimization
+- DevOps and infrastructure management (AWS, Docker, GitHub Actions)
+- Agile project management and delivery
 
-**Frameworks**: Ruby on Rails, React, React Native
+#### Tools & Platforms
 
-**Databases**: MySQL, Postgres, Redis
-
-**Tools**: AWS, Docker, Heroku, JSON API, Github, GitHub-Actions, Git, REST, Datadog, Sentry, Bugsnag
-
-**Editor**: Neovim
+- Management: Asana, Notion, Slack, Datadog, Sentry
+- Development: GitHub, Rails, React, MySQL, Postgres, Redis
+- Infrastructure: AWS, Heroku, Docker
 
 ## Education
 
-### [Southern Polytechnic State University](http://engineering.kennesaw.edu/)
+**Computer Science** | [Southern Polytechnic State University](http://engineering.kennesaw.edu/) | 2000-2002
 
-**Partial Degree:** BS Computer Science | **Years:** 2000-2002
-
-### [Kennesaw State University](http://www.kennesaw.edu/)
-
-**Partial Degree:** BA Music Education | **Years:** 1999 - 2000
+**Music Education** | [Kennesaw State University](http://www.kennesaw.edu/) | 1999-2000
