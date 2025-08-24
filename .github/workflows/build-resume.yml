@@ -54,3 +54,27 @@ jobs:
           publish_dir: ./dist
           publish_branch: gh-pages
 
+      - name: Generate release tag
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        id: tag
+        run: echo "tag=v$(date +'%Y.%m.%d')-$(echo ${{ github.sha }} | cut -c1-7)" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.tag.outputs.tag }}
+          name: Resume Release ${{ steps.tag.outputs.tag }}
+          body: |
+            Resume updated automatically from commit ${{ github.sha }}.
+            
+            **Live Resume**: https://blog.bweave.dev/resume/
+            
+            Changes in this release:
+            - View the [commit diff](https://github.com/${{ github.repository }}/commit/${{ github.sha }}) for details
+          files: |
+            dist/resume.pdf
+            dist/resume.html
+          draft: false
+          prerelease: false
+
