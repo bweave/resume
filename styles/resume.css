@@ -1,0 +1,296 @@
+/* Professional VP of Engineering Resume Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #2c3e50;
+  background-color: #ffffff;
+  font-size: 11pt;
+}
+
+.resume-container {
+  max-width: 8.5in;
+  margin: 0 auto;
+  padding: 0.75in;
+  background: white;
+  min-height: 11in;
+}
+
+/* Header Styling */
+h1 {
+  font-size: 28pt;
+  font-weight: 300;
+  color: #1a1a1a;
+  margin-bottom: 8pt;
+  letter-spacing: 1px;
+  border-bottom: 2pt solid #34495e;
+  padding-bottom: 8pt;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* Contact Info */
+.contact-info {
+  font-size: 10pt;
+  font-weight: 400;
+  color: #7f8c8d;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.contact-info a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-info a:hover {
+  color: #2980b9;
+}
+
+/* Remove old h6 styles since contact info is now inline */
+h6 {
+  display: none;
+}
+
+/* Professional Summary */
+p {
+  font-size: 11pt;
+  margin-bottom: 16pt;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/* Section Headers */
+h2 {
+  font-size: 16pt;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-top: 24pt;
+  margin-bottom: 12pt;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1pt solid #bdc3c7;
+  padding-bottom: 4pt;
+}
+
+/* Company Names */
+h3 {
+  font-size: 14pt;
+  font-weight: 600;
+  color: #34495e;
+  margin-top: 16pt;
+  margin-bottom: 8pt;
+}
+
+/* Position Titles */
+h4 {
+  font-size: 12pt;
+  font-weight: 500;
+  color: #34495e;
+  margin-bottom: 8pt;
+  font-style: italic;
+}
+
+.role-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.role {
+  font-weight: 600;
+  font-style: normal;
+}
+
+.date {
+  font-weight: 400;
+  font-style: normal;
+  color: #7f8c8d;
+  font-size: 10pt;
+}
+
+/* Subsection Headers */
+h5 {
+  font-size: 11pt;
+  font-weight: 600;
+  color: #34495e;
+  margin-top: 12pt;
+  margin-bottom: 6pt;
+}
+
+/* Lists */
+ul {
+  margin-left: 20pt;
+  margin-bottom: 12pt;
+}
+
+li {
+  margin-bottom: 6pt;
+  font-size: 11pt;
+  line-height: 1.4;
+}
+
+/* Strong emphasis for metrics and achievements */
+strong {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Links */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+/* Education section styling */
+h2 + p strong {
+  font-size: 12pt;
+  color: #2c3e50;
+}
+
+/* Print styles for PDF generation */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  body {
+    font-size: 10pt;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif !important;
+    background-color: white;
+  }
+  
+  .resume-container {
+    padding: 0.25in;
+    max-width: none;
+    margin: 0;
+    box-shadow: none;
+  }
+  
+  h1 {
+    font-size: 22pt;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: baseline !important;
+  }
+  
+  .contact-info {
+    font-size: 9pt !important;
+    font-weight: 400 !important;
+    color: #7f8c8d !important;
+  }
+  
+  .contact-info a {
+    color: #3498db !important;
+    text-decoration: none !important;
+  }
+  
+  h2 {
+    font-size: 14pt;
+    page-break-after: avoid;
+  }
+  
+  h3 {
+    font-size: 12pt;
+    page-break-after: avoid;
+  }
+  
+  h4 {
+    font-size: 11pt;
+    page-break-after: avoid;
+  }
+  
+  .role-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: baseline !important;
+  }
+  
+  .role {
+    font-weight: 600 !important;
+    font-style: normal !important;
+  }
+  
+  .date {
+    font-weight: 400 !important;
+    font-style: normal !important;
+    color: #7f8c8d !important;
+    font-size: 9pt !important;
+  }
+  
+  p, li {
+    font-size: 10pt;
+  }
+  
+  /* Keep header together */
+  h1 {
+    break-after: avoid !important;
+    page-break-after: avoid !important;
+  }
+  
+  /* Keep role sections together */
+  .role-section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  
+  /* Allow natural breaks between major sections */
+  h2 {
+    break-before: auto;
+    page-break-before: auto;
+  }
+  
+  /* Keep headers with their immediate content */
+  h3, h4, h5 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  
+  /* Keep lists together */
+  ul {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+/* Screen styles for local viewing */
+@media screen {
+  body {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  .resume-container {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .resume-container {
+    padding: 0.5in;
+    margin: 10px;
+  }
+  
+  h1 {
+    font-size: 24pt;
+  }
+  
+  h6 {
+    font-size: 9pt;
+  }
+}

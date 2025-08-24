@@ -1,0 +1,19 @@
+{
+  "name": "resume-generator",
+  "version": "1.0.0",
+  "description": "Professional resume generator with HTML and PDF output",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node scripts/serve.js",
+    "build": "node scripts/build.js",
+    "build:html": "node scripts/build-html.js",
+    "build:pdf": "node scripts/build-pdf.js"
+  },
+  "dependencies": {
+    "markdown-it": "^14.0.0",
+    "puppeteer": "^24.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

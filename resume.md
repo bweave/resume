@@ -1,10 +1,6 @@
----
-title: Brian Weaver
----
+# Brian Weaver <span class="contact-info">howdy@bweave.dev | [Github](https://www.github.com/bweave) | [Blog](https://blog.bweave.dev/) | [PDF Resume](resume.pdf)</span>
 
-###### [ [Github](https://www.github.com/bweave) ] - [ [Blog](https://blog.bweave.dev/) ] - [ howdy@bweave.dev ]
-
-I'm an experienced technical leader who builds healthy teams and ships great software. I currently lead 6 engineering teams at Planning Center and drive company-wide initiatives around hiring, planning, and engineering culture. I believe in clear communication, developing people, and getting things done.
+I'm an experienced technical leader who builds healthy teams and ships great software. I currently lead 6 engineering teams at Planning Center and drive company-wide initiatives around hiring, planning, and engineering culture. I believe in setting clear expectations, developing people, and getting things done.
 
 ## Experience
 
@@ -20,46 +16,40 @@ I'm an experienced technical leader who builds healthy teams and ships great sof
 
 #### Engineering Manager, June 2023 - August 2024
 
-- Led 3 high-impact engineering teams (API, People, Publishing) while building management capabilities across the organization
-- Drove major hiring expansion - led Q3 "mega hiring round" increasing headcount ~15% and migrated hiring process from Codility to Codesignal
-- Established mentoring program resulting in 15+ successful mentor-mentee pairings and supported multiple IC promotions (L4, L5)
-- Delivered key product initiatives including Sermon Notes, Customer Analytics, Add-ons, Async Webhooks, Church Center Directory Privacy and Members-only pages, People List Performance, and Shareable Dashboards in partnership with Product teams
+- Led 3 high-impact engineering teams (API, People, Publishing)
+- Drove major hiring expansion - led Q3 "mega round" increasing headcount ~15%
+- Fostered mentoring resulting in 15+ successful pairings and supported multiple IC promotions (L4, L5)
+- Delivered key product initiatives including Customer Analytics, Add-ons,, Church Center Directory Privacy and Members-only pages, People List Performance, and Shareable Dashboards in partnership with Product teams
 - Developed engineering talent through coaching underperforming developers on communication, code quality, and team dynamics
 
 #### Fullstack Developer, May 2017 - June 2023
 
-- Progressed from IC L1 to L4 and emerged as technical leader - served as Publishing Engineering Lead and moved to management track
+- Progressed from IC L1 to L4 and emerged as technical leader - served as Publishing Engineering Lead
 - Drove engineering culture initiatives - implemented weekly Datadog Walks adopted across Engineering, led pair programming and mentoring efforts
 - Delivered high-impact features - improved Giving statement performance, built Church Center cross-product features, created public/private APIs across multiple products
-- Partnered directly with Product, Design, Support and QA to define requirements, ship features, and resolve issues
+- Partnered with Product, Support and QA to define requirements, ship features, and resolve issues
 - Participated in hiring, onboarding, code reviews, and on-call rotation
 
 ### North Point Ministries
 
-#### Senior Developer, Sept. 2014 - May 2017
+#### Senior Developer, Aug. 2014 - May 2017
 
 - Led full-stack development for 117 websites and applications serving tens of thousands of weekly users
 - Mentored team members and drove adoption of best practices across PHP, Ruby, and JavaScript stack
 - Served as DevOps lead scaling applications and participating in stakeholder planning
-
-#### Contract Developer, Aug. 2014 - Sept. 2014
-
-- Built out the initial version of [Your move with Andy Stanley](https://yourmove.is/)
-- Custom WordPress development
 
 ### Root Radius
 
 #### Lead Developer, Nov. 2012 - Aug. 2014
 
 - Solo technical lead for digital agency serving non-profit organizations
-- Managed full project lifecycle from discovery to deployment, including client communication and technical architecture
+- Managed full project lifecycle, client communication, and technical architecture
 
 ### BWeave, LLC
 
 #### Owner, 2008 - Present
 
 - Independent consulting practice delivering custom software solutions
-- Responsible for all aspects of client relationships, project delivery, and business operations
 
 ### Core Competencies
 
@@ -74,7 +64,6 @@ I'm an experienced technical leader who builds healthy teams and ships great sof
 
 - Full-stack development (Ruby/Rails, JavaScript/React, SQL)
 - System architecture and performance optimization
-- DevOps and infrastructure management (AWS, Docker, GitHub Actions)
 - Agile project management and delivery
 
 #### Tools & Platforms

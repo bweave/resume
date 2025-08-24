@@ -1,0 +1,56 @@
+name: Build Resume
+
+on:
+  push:
+    branches: [main]
+    paths: ["resume.md", "styles/**", "scripts/**"]
+  pull_request:
+    branches: [main]
+    paths: ["resume.md", "styles/**", "scripts/**"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build HTML resume
+        run: npm run build:html
+
+      - name: Build PDF resume
+        run: npm run build:pdf
+
+      - name: Upload HTML artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-html
+          path: dist/resume.html
+          retention-days: 30
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdf
+          path: dist/resume.pdf
+          retention-days: 30
+
+      - name: Deploy to GitHub Pages (if main branch)
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+
