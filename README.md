@@ -1,6 +1,6 @@
 # Professional Resume Generator
 
-A resume toolchain that converts Markdown to styled HTML and PDF formats.
+A resume toolchain that converts Markdown to styled HTML and PDF.
 
 ## Live Resume
 
