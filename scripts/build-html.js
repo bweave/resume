@@ -65,7 +65,8 @@ function buildHTML() {
 
     // Write to dist folder
     fs.writeFileSync('dist/resume.html', fullHTML);
-    console.log('✅ HTML resume generated at dist/resume.html');
+    fs.writeFileSync('dist/index.html', fullHTML);
+    console.log('✅ HTML resume generated at dist/resume.html and dist/index.html');
 
   } catch (error) {
     console.error('❌ Error building HTML:', error.message);

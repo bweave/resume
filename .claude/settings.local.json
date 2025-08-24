@@ -6,7 +6,9 @@
       "Bash(npm install)",
       "Bash(npm run build:html:*)",
       "Bash(npm run build:pdf:*)",
-      "Bash(npx eslint:*)"
+      "Bash(npx eslint:*)",
+      "Bash(gh repo view:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
