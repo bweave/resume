@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "markdown-it": "^14.0.0",
-    "puppeteer": "^24.0.0"
+    "puppeteer": "^24.37.5"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
