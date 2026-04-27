@@ -3,10 +3,10 @@ name: Build Resume
 on:
   push:
     branches: [main]
-    paths: ["resume.md", "styles/**", "scripts/**"]
+    paths: ["resume.md", "styles/**", "scripts/**", ".github/workflows/**"]
   pull_request:
     branches: [main]
-    paths: ["resume.md", "styles/**", "scripts/**"]
+    paths: ["resume.md", "styles/**", "scripts/**", ".github/workflows/**"]
   workflow_dispatch:
 
 jobs:
@@ -15,12 +15,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "18"
+          node-version: "22"
           cache: "npm"
 
       - name: Install dependencies
@@ -33,14 +33,14 @@ jobs:
         run: npm run build:pdf
 
       - name: Upload HTML artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: resume-html
           path: dist/resume.html
           retention-days: 30
 
       - name: Upload PDF artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: resume-pdf
           path: dist/resume.pdf
@@ -48,7 +48,7 @@ jobs:
 
       - name: Deploy to GitHub Pages (if main branch)
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
@@ -61,7 +61,7 @@ jobs:
 
       - name: Create GitHub Release
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.tag.outputs.tag }}
           name: Resume Release ${{ steps.tag.outputs.tag }}
