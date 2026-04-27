@@ -9,6 +9,7 @@ I'm an experienced technical leader who builds healthy teams and ships quality s
 #### Senior Engineering Manager, August 2024 - Present
 
 - Built and supported the highest-performing engineering area leading 6 teams (API, Chat, Home, People, Publishing, Ecosystem Mobile)
+- Advanced the company's 2026 AI Competency pillar by designing and building Picobot, an AI-powered support chatbot using retrieval-augmented generation over Planning Center help, API docs, and internal knowledge - architected a multi-model router (Claude Haiku/Sonnet/Opus on AWS Bedrock) with semantic caching to keep per-conversation costs low at scale
 - Recruited and developed engineering leadership - hired EMs for API, People, and Home teams
 - Scaled engineering organization by ~10% as hiring lead - implemented runbooks, coached EMs on hiring/onboarding, collaborated with People Ops, and managed vendor partnerships for hiring tools
 - Designed and executed company-wide Engineering Summit - coordinated cross-department collaboration for in-house conference with 100+ attendees
