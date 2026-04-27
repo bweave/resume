@@ -1,6 +1,6 @@
 # Brian Weaver <span class="contact-info">howdy@bweave.dev | [Github](https://www.github.com/bweave) | [Blog](https://blog.bweave.dev/) | [PDF](resume.pdf)</span>
 
-I'm an experienced technical leader who builds healthy teams and ships quality software. I currently lead 8 engineering teams at Planning Center and drive company-wide initiatives around hiring, planning, and engineering culture. I believe in setting clear expectations, developing people, and getting things done.
+I'm an experienced technical leader who builds healthy teams and ships quality software. I currently lead 6 engineering teams at Planning Center and drive company-wide initiatives around hiring, planning, and engineering culture. I believe in setting clear expectations, developing people, and getting things done.
 
 ## Experience
 
