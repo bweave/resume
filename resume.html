@@ -96,6 +96,23 @@ h3 {
   margin-bottom: 8pt;
 }
 
+.company-header {
+  display: flex;
+  gap: 10px;
+  /* justify-content: space-between; */
+  align-items: baseline;
+}
+
+.company {
+  font-weight: 600;
+}
+
+.location {
+  font-weight: 400;
+  color: #7f8c8d;
+  font-size: 10pt;
+}
+
 /* Position Titles */
 h4 {
   font-size: 12pt;
@@ -107,7 +124,8 @@ h4 {
 
 .role-header {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 10px;
   align-items: baseline;
 }
 
@@ -220,9 +238,27 @@ h2+p strong {
     page-break-after: avoid;
   }
 
+  .company-header {
+    display: flex !important;
+    gap: 1rem;
+    /* justify-content: space-between !important; */
+    align-items: baseline !important;
+  }
+
+  .company {
+    font-weight: 600 !important;
+  }
+
+  .location {
+    font-weight: 400 !important;
+    color: #7f8c8d !important;
+    font-size: 9pt !important;
+  }
+
   .role-header {
     display: flex !important;
-    justify-content: space-between !important;
+    gap: 10px;
+    /* justify-content: space-between !important; */
     align-items: baseline !important;
   }
 
@@ -309,12 +345,13 @@ h2+p strong {
 </head>
 <body>
     <div class="resume-container">
-        <h1>Brian Weaver <span class="contact-info">howdy@bweave.dev | <a href="https://www.github.com/bweave">Github</a> | <a href="https://blog.bweave.dev/">Blog</a> | <a href="resume.pdf">PDF Resume</a></span></h1>
-<p>I’m an experienced technical leader who builds healthy teams and ships great software. I currently lead 6 engineering teams at Planning Center and drive company-wide initiatives around hiring, planning, and engineering culture. I believe in setting clear expectations, developing people, and getting things done.</p>
+        <h1>Brian Weaver <span class="contact-info">howdy@bweave.dev | <a href="https://www.github.com/bweave">Github</a> | <a href="https://blog.bweave.dev/">Blog</a> | <a href="resume.pdf">PDF</a></span></h1>
+<p>I’m an experienced technical leader who builds healthy teams and ships quality software. I currently lead 8 engineering teams at Planning Center and drive company-wide initiatives around hiring, planning, and engineering culture. I believe in setting clear expectations, developing people, and getting things done.</p>
 <h2>Experience</h2>
-<h3>Planning Center</h3>
+<h3 class="company-header"><span class="company">Planning Center</span><span class="location">Carlsbad, CA | Remote</span></h3>
 <div class="role-section"><h4 class="role-header"><span class="role">Senior Engineering Manager</span><span class="date">August 2024 - Present</span></h4><ul>
 <li>Built and supported the highest-performing engineering area leading 6 teams (API, Chat, Home, People, Publishing, Ecosystem Mobile)</li>
+<li>Advanced the company’s 2026 AI Competency pillar by designing and building Picobot, an AI-powered support chatbot using retrieval-augmented generation over Planning Center help, API docs, and internal knowledge - architected a multi-model router (Claude Haiku/Sonnet/Opus on AWS Bedrock) with semantic caching to keep per-conversation costs low at scale</li>
 <li>Recruited and developed engineering leadership - hired EMs for API, People, and Home teams</li>
 <li>Scaled engineering organization by ~10% as hiring lead - implemented runbooks, coached EMs on hiring/onboarding, collaborated with People Ops, and managed vendor partnerships for hiring tools</li>
 <li>Designed and executed company-wide Engineering Summit - coordinated cross-department collaboration for in-house conference with 100+ attendees</li>
@@ -336,18 +373,18 @@ h2+p strong {
 <li>Partnered with Product, Support and QA to define requirements, ship features, and resolve issues</li>
 <li>Participated in hiring, onboarding, code reviews, and on-call rotation</li>
 </ul></div>
-<h3>North Point Ministries</h3>
+<h3 class="company-header"><span class="company">North Point Ministries</span><span class="location">Alpharetta, GA | On-site</span></h3>
 <div class="role-section"><h4 class="role-header"><span class="role">Senior Developer</span><span class="date">Aug. 2014 - May 2017</span></h4><ul>
 <li>Led development for +100 websites and applications serving tens of thousands of weekly users</li>
 <li>Mentored team members on best practices across PHP, Ruby, and JavaScript</li>
 <li>Served as DevOps lead scaling applications and participating in stakeholder planning</li>
 </ul></div>
-<h3>Root Radius</h3>
+<h3 class="company-header"><span class="company">Root Radius</span><span class="location">Kennesaw, GA | On-site</span></h3>
 <div class="role-section"><h4 class="role-header"><span class="role">Lead Developer</span><span class="date">Nov. 2012 - Aug. 2014</span></h4><ul>
 <li>Solo technical lead for digital agency serving non-profit organizations</li>
 <li>Managed full project lifecycle, client communication, and technical architecture</li>
 </ul></div>
-<h3>BWeave, LLC</h3>
+<h3 class="company-header"><span class="company">BWeave, LLC</span><span class="location">Marietta, GA | Remote</span></h3>
 <div class="role-section"><h4 class="role-header"><span class="role">Owner</span><span class="date">2008 - Present</span></h4><ul>
 <li>Independent consulting practice delivering custom software solutions</li>
 </ul></div>
