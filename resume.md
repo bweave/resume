@@ -1,10 +1,10 @@
-# Brian Weaver <span class="contact-info">howdy@bweave.dev | [Github](https://www.github.com/bweave) | [Blog](https://blog.bweave.dev/) | [PDF Resume](resume.pdf)</span>
+# Brian Weaver <span class="contact-info">howdy@bweave.dev | [Github](https://www.github.com/bweave) | [Blog](https://blog.bweave.dev/) | [PDF](resume.pdf)</span>
 
-I'm an experienced technical leader who builds healthy teams and ships great software. I currently lead 6 engineering teams at Planning Center and drive company-wide initiatives around hiring, planning, and engineering culture. I believe in setting clear expectations, developing people, and getting things done.
+I'm an experienced technical leader who builds healthy teams and ships quality software. I currently lead 8 engineering teams at Planning Center and drive company-wide initiatives around hiring, planning, and engineering culture. I believe in setting clear expectations, developing people, and getting things done.
 
 ## Experience
 
-### Planning Center
+### Planning Center | Carlsbad, CA | Remote
 
 #### Senior Engineering Manager, August 2024 - Present
 
@@ -32,7 +32,7 @@ I'm an experienced technical leader who builds healthy teams and ships great sof
 - Partnered with Product, Support and QA to define requirements, ship features, and resolve issues
 - Participated in hiring, onboarding, code reviews, and on-call rotation
 
-### North Point Ministries
+### North Point Ministries | Alpharetta, GA | On-site
 
 #### Senior Developer, Aug. 2014 - May 2017
 
@@ -40,14 +40,14 @@ I'm an experienced technical leader who builds healthy teams and ships great sof
 - Mentored team members on best practices across PHP, Ruby, and JavaScript
 - Served as DevOps lead scaling applications and participating in stakeholder planning
 
-### Root Radius
+### Root Radius | Kennesaw, GA | On-site
 
 #### Lead Developer, Nov. 2012 - Aug. 2014
 
 - Solo technical lead for digital agency serving non-profit organizations
 - Managed full project lifecycle, client communication, and technical architecture
 
-### BWeave, LLC
+### BWeave, LLC | Marietta, GA | Remote
 
 #### Owner, 2008 - Present
 

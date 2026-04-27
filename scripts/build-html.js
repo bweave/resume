@@ -33,6 +33,12 @@ function buildHTML() {
     // Convert markdown to HTML
     let htmlContent = md.render(content);
 
+    // Transform h3 elements (company headers) to split company name and location
+    htmlContent = htmlContent.replace(
+      /<h3>(.*?)\s*\|\s*(.*?)<\/h3>/g,
+      '<h3 class="company-header"><span class="company">$1</span><span class="location">$2</span></h3>'
+    );
+
     // Transform h4 elements to add date splitting
     htmlContent = htmlContent.replace(
       /<h4>(.*?),\s*([^<]*)<\/h4>/g,
