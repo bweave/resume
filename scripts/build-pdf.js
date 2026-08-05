@@ -28,7 +28,7 @@ async function buildPDF() {
 
     // Read the HTML content
     const htmlContent = fs.readFileSync('dist/resume.html', 'utf8');
-    await page.setContent(htmlContent, { waitUntil: 'networkidle0' });
+    await page.setContent(htmlContent, { waitUntil: 'load' });
 
     // Set viewport for consistent rendering
     await page.setViewport({ width: 800, height: 1200 });
