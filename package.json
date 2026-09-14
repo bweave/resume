@@ -10,7 +10,7 @@
     "build:pdf": "node scripts/build-pdf.js"
   },
   "dependencies": {
-    "markdown-it": "^14.1.1",
+    "markdown-it": "^15.0.1",
     "puppeteer": "^25.1.0"
   },
   "devDependencies": {
